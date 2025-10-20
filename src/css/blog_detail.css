@@ -1,0 +1,155 @@
+/*
+Template Name:Seller
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog_detail****************/
+.center_about{
+  padding-top:40px;
+  padding-bottom:70px;
+  background:#f4f4f4;
+  }
+
+#about_page{
+ padding-bottom:40px; 
+  }
+.news_h1l img{
+ margin-top:0;
+  }
+.news_h1li1l{
+  background:#fafafa;
+  padding:5px 10px 15px 10px;
+  }
+.news_h1li1l ul li{
+  margin-bottom:5px;
+  }
+.news_h1li1l ul li a:hover{
+color:#f3b204;
+  }
+.news_h1li1l ul li a i{
+color:#f3b204;
+margin-right:5px;
+  }
+.news_h1li1r h6{
+color:#f3b204;
+  }
+.news_h1{
+  position:relative;
+  }
+.news_h1li1l{
+position:absolute;
+bottom:-90px;  
+  }
+  
+.blog_d_page{
+margin-top:30px;  
+  }
+
+.blog_d_page_li{
+margin-top:30px; 
+ }
+.blog_d_page_li ul{
+  list-style:disc;
+  padding-left:15px;
+  }
+.blog_d_page_li ul li{
+margin-bottom:5px;
+  }
+.blog_d_page_li1{
+margin-top:30px; 
+ }
+.blog_d_page_li1 hr{
+margin-left:0;
+ }
+.blog_d_page_li2ir h6 a{
+margin-left:30px;
+color:#f3b204;
+letter-spacing:1px; 
+ }
+.blog_d_page_li2{
+ border:1px solid #ddd;
+  }
+.bg{
+ background:#f4f4f4;
+ }
+.blog_d_page_li2i{
+ padding:10px 15px 20px 15px;
+ }
+.blog_d_page_li3 hr{
+  margin-left:0;
+  }
+.blog_d_page_li3{
+ margin-top:30px; 
+  }
+.blog_d_page_li3i .form-control{
+ margin-bottom:10px; 
+ height:45px;
+  }
+.form_1{
+ height:135px!important; 
+  }
+.blog_d_page_r .btn{
+background: #f3b204;
+border-color: #f3b204;
+  }
+.blog_d_page_r .about_h{
+margin-top:20px; 
+ }
+.blog_d_page_r .about_h hr{
+margin-left:0; 
+ }
+.blog_d_page_ri1 h6 i{
+ color:#f3b204;
+ margin-right:5px; 
+  }
+/*********************blog_detail_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.news_h1li1l{
+position:static;
+margin-top:10px;  
+  }
+.news_h1li1l ul li{
+display:inline-block; 
+ }
+.blog_d_page_li1 hr{
+ margin-left:auto; 
+  }
+.blog_d_page_li3 hr{
+  margin-left:auto;  
+  }
+.blog_d_page_r {
+ margin-top:20px;  
+   }
+.blog_d_page_r .about_h hr{
+ margin-left:auto; 
+  }
+#about_page{
+padding-bottom:0;  
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.news_h1li1l ul li{
+font-size:12px; 
+ }
+.news_h1li1l {
+    padding: 5px 5px 15px 5px; 
+}
+.news_h1li1l{
+bottom:-80px; 
+ }
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+

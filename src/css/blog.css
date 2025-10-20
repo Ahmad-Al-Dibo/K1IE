@@ -1,0 +1,84 @@
+/*
+Template Name:Seller
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************blog****************/
+.center_about{
+  padding-top:40px;
+  padding-bottom:70px;
+  background:#f4f4f4;
+  }
+
+#about_page{
+margin-bottom:100px;  
+  }
+.news_h1{
+ margin-top:30px;
+ }
+.news_h1 img{
+ margin-top:0;
+  }
+.news_h1li1l{
+  background:#fafafa;
+  padding:5px 10px 15px 10px;
+  }
+.news_h1li1l ul li{
+  margin-bottom:5px;
+  }
+.news_h1li1l ul li a:hover{
+color:#f3b204;
+  }
+.news_h1li1l ul li a i{
+color:#f3b204;
+margin-right:5px;
+  }
+.news_h1li1r h6 a{
+color:#f3b204;
+  }
+.news_h1{
+  position:relative;
+  }
+.news_h1li1l{
+position:absolute;
+bottom:-90px;  
+  }
+/*********************blog_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.news_h1li1l{
+position:static;
+margin-top:10px;  
+  }
+.news_h1li1l ul li{
+display:inline-block; 
+ }
+.news_h1 img{
+ margin-top:10px;
+ }
+#about_page{
+ margin-bottom:0; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+.news_h1li1l ul li{
+font-size:12px; 
+ }
+.news_h1li1l {
+    padding: 5px 5px 15px 5px; 
+}
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+

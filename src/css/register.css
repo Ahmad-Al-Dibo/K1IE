@@ -1,0 +1,79 @@
+/*
+Template Name:Seller
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************register****************/
+.center_about{
+  padding-top:40px;
+  padding-bottom:70px;
+  background:#f4f4f4;
+  }
+#register{
+ padding-top:40px;
+ padding-bottom:40px; 
+  }
+.register_1li h4{
+margin-top:15px;
+  }
+.register_1li1l{
+margin-top:10px;  
+  }
+.register_1li1l .form-control{
+ margin-top:10px;
+ border-radius:0;
+ }
+.register_1li1l .button_1{
+ float:left;
+ margin-right:10px; 
+  }
+.register_1li1l .tick_box{
+display:inline-block;
+margin-top:20px;  
+  }
+.check{
+vertical-align:text-top;
+  }
+.register_1li1l h6{
+clear:left;
+margin-top:30px;  
+  }
+
+.register_1li2{
+margin-top:10px;  
+  }
+.register_1li2 p span{
+ margin-left:10px;
+ }
+.term{
+ margin-top:15px;
+ line-height:1.6em;
+ }
+.login_page{
+  margin-top:15px;
+  }
+/*********************register_end****************/
+
+
+
+@media screen and (max-width : 767px){
+#register{
+ text-align:center;
+ padding-bottom:0; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+

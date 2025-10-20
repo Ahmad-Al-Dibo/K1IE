@@ -1,0 +1,77 @@
+/*
+Template Name:Seller
+File: Layout CSS
+Author: Templates On Web
+Author URI: http://templateonweb.com/
+Licence: <a href="http://www.templateonweb.com/terms.php?v=content&contentid=152">Website Template Licence</a>
+*/
+/*********************product****************/
+.center_about{
+  padding-top:40px;
+  padding-bottom:70px;
+  background:#f4f4f4;
+  }
+
+.cat_1i img{
+ height:300px; 
+  }
+.cat_1im{
+ position:relative; 
+  }
+.cat_1i1 {
+ background:#0000009e; 
+ padding:20px 15px;
+ position:absolute;
+ top:0;
+ height:100%;
+ padding-top:16%;
+ display:none;
+  }
+.cat_1i1 span i{
+  color:#f1d68f;
+  font-size:40px;
+  }
+.cat_1i1 h3{
+  color:#fff;
+  }
+.cat_1i1 p{
+  color:#f4f4f4;
+  }
+.cat_1im:hover  .cat_1i1{
+display:block;
+cursor:pointer; 
+ }
+.rmg{
+ margin-top:40px; 
+  }
+.about_page_t{
+ margin-bottom:40px; 
+  }
+#about_page{
+ padding-bottom:40px;
+ }
+/*********************product_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.cat_1im {
+ margin-top:10px; 
+  }
+#about_page{
+ padding-bottom:0; 
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1310px) {
+
+ }
+
+
+
