@@ -1,19 +1,23 @@
-# React + TypeScript + Vite
+<<<<<<< HEAD
+# K1IE — React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Klant 1 React web project (Import / Export products website).
 
-Currently, two official plugins are available:
+This repository was bootstrapped from the Vite + React + TypeScript template and includes a minimal setup for development with Hot Module Replacement (HMR) and ESLint configuration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Overview
+--------
+- Framework: React
+- Language: TypeScript
+- Bundler / Dev server: Vite
 
-## React Compiler
+React compiler
+--------------
+The React Compiler is not enabled in this template due to its impact on dev/build performance. If you want to enable it, see the official docs: https://react.dev/learn/react-compiler/installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+ESLint and type-aware rules
+---------------------------
+For production apps it's recommended to enable type-aware linting. Example configuration (in `eslint.config.js`) to enable type-checked rules:
 
 ```js
 export default defineConfig([
@@ -21,53 +25,39 @@ export default defineConfig([
   {
     files: ['**/*.{ts,tsx}'],
     extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
+      // Replace the basic recommended config with type-checked rules
       tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
+      // or stricter:
+      // tseslint.configs.strictTypeChecked,
     ],
     languageOptions: {
       parserOptions: {
         project: ['./tsconfig.node.json', './tsconfig.app.json'],
         tsconfigRootDir: import.meta.dirname,
       },
-      // other options...
     },
   },
 ])
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Optional: install React-specific lint plugins:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `eslint-plugin-react-x` (React TypeScript rules)
+- `eslint-plugin-react-dom` (React DOM rules)
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
+What changed
+------------
+This README was previously conflicting between the upstream Vite template notes and a project-specific message. The file has been merged to keep the useful setup instructions and the project title/description.
+
+Where to go next
+-----------------
+- Open `client/package.json` to see available scripts (dev/build). 
+- Run the dev server from the `client` folder with `npm install` then `npm run dev`.
+
+If you want, I can also:
+- add a short project-specific usage section, or
+- create a CONTRIBUTING or DEVELOPMENT quick-start file.
+
+-----
+Generated on merge resolution.
       reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
