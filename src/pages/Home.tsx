@@ -1,116 +1,22 @@
 import { Link } from "react-router-dom";
 
+const Importsection = () => {
+  return (
+    <>
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/global.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="/css/font-awesome.min.css" />
+</>
+  )
+};
+
+
 const Home: React.FC = () => {
   return (
       <>
+      <Importsection />
 
-        <section id="header" className="clearfix">
-          <nav className="navbar">
-            <div className="container">
-              {/* Brand and toggle get grouped for better mobile display */}
-              <div className="navbar-header page-scroll">
-                <button
-                  type="button"
-                  className="navbar-toggle"
-                  data-toggle="collapse"
-                  data-target="#bs-example-navbar-collapse-1"
-                >
-                  <span className="sr-only">Toggle navigation</span>
-                  <span className="icon-bar" />
-                  <span className="icon-bar" />
-                  <span className="icon-bar" />
-                </button>
-                <a className="navbar-brand" href="index.html">
-                  <i className="fa fa-copyright" /> SELLER
-                </a>
-              </div>
-              {/* Collect the nav links, forms, and other content for toggling */}
-              <div
-                className="collapse navbar-collapse"
-                id="bs-example-navbar-collapse-1"
-              >
-                <ul className="nav navbar-nav navbar-right">
-                  <li>
-                    <a className="tag_m active_tab" href="index.html">
-                      Home
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="about.html">
-                      About Us
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="import.html">
-                      Import
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="export.html">
-                      Export
-                    </a>
-                  </li>
-                  <li className="dropdown">
-                    <a
-                      href="#"
-                      className="dropdown-toggle tag_m"
-                      data-toggle="dropdown"
-                    >
-                      Product <b className="caret" />
-                    </a>
-                    <ul className="dropdown-menu drop_m">
-                      <li>
-                        <a href="product.html">Product</a>
-                      </li>
-                      <li>
-                        <a href="product_detail.html">Product Detail</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li className="dropdown">
-                    <a
-                      href="#"
-                      className="dropdown-toggle tag_m"
-                      data-toggle="dropdown"
-                    >
-                      Blog <b className="caret" />
-                    </a>
-                    <ul className="dropdown-menu drop_m">
-                      <li>
-                        <a href="blog.html">Blog</a>
-                      </li>
-                      <li>
-                        <a href="blog_detail.html">Blog Detail</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="cart.html">
-                      Shopping Cart
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="register.html">
-                      Register
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="login.html">
-                      Log In
-                    </a>
-                  </li>
-                  <li>
-                    <a className="tag_m" href="contact.html">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              {/* /.navbar-collapse */}
-            </div>
-            {/* /.container-fluid */}
-          </nav>
-        </section>
         <section id="center" className="center_home">
           <div className="center_hm clearfix">
             <div className="container">
