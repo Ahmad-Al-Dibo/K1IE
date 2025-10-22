@@ -89,12 +89,12 @@ const NavbarSectionBottom = () => {
                     </Link>}
                   </li>
                   <li>
-                    {<Link className="tag_m" to="/import">
+                    {<Link className="tag_m" to="/importsection">
                       Import
                     </Link>}
                   </li>
                   <li>
-                    {<Link className="tag_m" to="/export">
+                    {<Link className="tag_m" to="/exportsection">
                       Export
                     </Link>}
                   </li>
@@ -111,7 +111,7 @@ const NavbarSectionBottom = () => {
                         <Link to="/products">Product</Link>
                       </li>
                       <li>
-                        <Link to="/product_detail">Product Detail</Link>
+                        <Link to="/ProductDetails">Product Detail</Link>
                       </li>
                     </ul>
                   </li>
@@ -128,18 +128,13 @@ const NavbarSectionBottom = () => {
                         <Link to="/blog">Blog</Link>
                       </li>
                       <li>
-                        <Link to="/blog_detail">Blog Detail</Link>
+                        <Link to="/blogdetails">Blog Detail</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
                     <Link className="tag_m" to="/cart">
                       Shopping Cart
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="tag_m" to="/blog_detail">
-                      Blog Detail
                     </Link>
                   </li>
                   <li>

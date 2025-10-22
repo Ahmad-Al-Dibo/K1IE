@@ -3,22 +3,23 @@ const Importsection = () => {
     <>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/global.css" rel="stylesheet" />
-  <link href="css/product.css" rel="stylesheet" />
+  <link href="css/import.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 </>
   )
 };
 
-const Products: React.FC = () => {
+const Export: React.FC = () => {
+
   return (
-    <>
-      <Importsection />
+<>
+  <Importsection />
   <section id="center" className="center_about clearfix">
     <div className="container">
       <div className="row">
         <div className="center_about_1 text-center clearfix">
-          <h2 className="mgt">PRODUCT PAGE</h2>
+          <h2 className="mgt">EXPORT</h2>
         </div>
       </div>
     </div>
@@ -34,7 +35,7 @@ const Products: React.FC = () => {
                   Home <i className="fa fa-chevron-right" />{" "}
                 </li>
                 <li>
-                  <a href="product_detail.html">Product</a>{" "}
+                  <a href="#">Export</a>{" "}
                 </li>
               </ul>
             </div>
@@ -54,223 +55,131 @@ const Products: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="row_1">
+      </div>
+    </div>
+  </section>
+  <section id="import">
+    <div className="container">
+      <div className="row">
+        <div className="import_m clearfix">
           <div className="about_h text-center clearfix">
             <div className="col-sm-12">
-              <h3 className="mgt">FEATURED CATEGORIES</h3>
+              <h3>EXPORT PRODUCT</h3>
               <hr />
             </div>
           </div>
-          <div className="cat_1 clearfix">
+          <div className="import_i clearfix">
             <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/6.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
+              <div className="import_ii text-center clearfix">
+                <img src="img/50.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Lorem Ipsum
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
             </div>
             <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/7.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
+              <div className="import_ii text-center clearfix">
+                <img src="img/51.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Sed Cursus{" "}
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
             </div>
             <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/8.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
+              <div className="import_ii text-center clearfix">
+                <img src="img/52.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Nulla Quis
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="row_1 rmg">
-          <div className="about_h text-center clearfix">
-            <div className="col-sm-12">
-              <h3 className="mgt">POPULAR CATEGORIES</h3>
-              <hr />
+          <div className="import_i clearfix">
+            <div className="col-sm-4">
+              <div className="import_ii text-center clearfix">
+                <img src="img/53.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Lorem Ipsum
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="import_ii text-center clearfix">
+                <img src="img/54.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Sed Cursus{" "}
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="import_ii text-center clearfix">
+                <img src="img/55.jpg" className="iw" alt="abc" />
+                <h4>
+                  <a className="c_text" href="#">
+                    Nulla Quis
+                  </a>
+                </h4>
+                <p>
+                  Sed cursus ante dapibus diam Sed nisi Nulla quis sem at nibh
+                  elementum imperdiet.
+                </p>
+              </div>
             </div>
           </div>
-          <div className="cat_1 clearfix">
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/9.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/10.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/11.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="row_1 rmg">
-          <div className="about_h text-center clearfix">
-            <div className="col-sm-12">
-              <h3 className="mgt">NEW ARRIVAL</h3>
-              <hr />
-            </div>
-          </div>
-          <div className="cat_1 clearfix">
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/38.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/39.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/40.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
+          <div className="import_i1 text-center clearfix">
+            <ul>
+              <li>
+                <a href="#">
+                  <i className="fa fa-long-arrow-left" />
+                </a>
+              </li>
+              <li>
+                <a className="act_tab" href="#">
+                  1
+                </a>
+              </li>
+              <li>
+                <a href="#">2</a>
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">
+                  <i className="fa fa-long-arrow-right" />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -477,4 +386,4 @@ const Products: React.FC = () => {
   );
 };
 
-export default Products;
+export default Export;

@@ -3,22 +3,24 @@ const Importsection = () => {
     <>
   <link href="css/bootstrap.min.css" rel="stylesheet" />
   <link href="css/global.css" rel="stylesheet" />
-  <link href="css/product.css" rel="stylesheet" />
+  <link href="css/blog.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 </>
   )
 };
 
-const Products: React.FC = () => {
+const Blog: React.FC = () => {
+ 
+
   return (
     <>
       <Importsection />
-  <section id="center" className="center_about clearfix">
+  <section id="center" className="center_about">
     <div className="container">
       <div className="row">
         <div className="center_about_1 text-center clearfix">
-          <h2 className="mgt">PRODUCT PAGE</h2>
+          <h2 className="mgt">BLOG</h2>
         </div>
       </div>
     </div>
@@ -34,7 +36,7 @@ const Products: React.FC = () => {
                   Home <i className="fa fa-chevron-right" />{" "}
                 </li>
                 <li>
-                  <a href="product_detail.html">Product</a>{" "}
+                  <a href="blog_detail.html">Blog</a>{" "}
                 </li>
               </ul>
             </div>
@@ -54,222 +56,261 @@ const Products: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="row_1">
-          <div className="about_h text-center clearfix">
-            <div className="col-sm-12">
-              <h3 className="mgt">FEATURED CATEGORIES</h3>
-              <hr />
+        <div className="news_h1 clearfix">
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/18.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
+                    <p>
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
+                    </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="cat_1 clearfix">
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/6.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/7.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/19.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/8.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
                     <p>
                       {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
                     </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
                   </div>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="row_1 rmg">
-          <div className="about_h text-center clearfix">
-            <div className="col-sm-12">
-              <h3 className="mgt">POPULAR CATEGORIES</h3>
-              <hr />
-            </div>
-          </div>
-          <div className="cat_1 clearfix">
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/9.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/10.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/11.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
-                  </div>
-                </div>
-              </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="row_1 rmg">
-          <div className="about_h text-center clearfix">
-            <div className="col-sm-12">
-              <h3 className="mgt">NEW ARRIVAL</h3>
-              <hr />
+        <div className="news_h1 clearfix">
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/30.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
+                    <p>
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
+                    </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="cat_1 clearfix">
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/38.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/31.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </a>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
+                    <p>
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
+                    </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/39.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
+          </div>
+        </div>
+        <div className="news_h1 clearfix">
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/32.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </a>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
+                    <p>
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
+                    </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="col-sm-4">
-              <a href="product_detail.html">
-                <div className="cat_1im clearfix">
-                  <div className="cat_1i clearfix">
-                    <img src="img/40.jpg" className="iw mgt" alt="abc" />
-                  </div>
-                  <div className="cat_1i1 text-center clearfix">
-                    <span>
-                      <i className="fa fa-shopping-basket" />
-                    </span>
-                    <h3 className="bold">Lorem ipsum dolor</h3>
-                    <p>
-                      {" "}
-                      Vestibulum lacinia arcu eget nulla.Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos.
-                    </p>
+          </div>
+          <div className="col-sm-6">
+            <div className="news_h1l clearfix">
+              <div className="news_h1li clearfix">
+                <img src="img/33.jpg" alt="abc" className="iw" />
+              </div>
+              <div className="news_h1li1 clearfix">
+                <div className="col-sm-4">
+                  <div className="news_h1li1l">
+                    <ul>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-calendar" /> 28 Mar 20
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-user" /> By Dapibus{" "}
+                        </a>
+                      </li>
+                      <li>
+                        <a href="blog_detail.html">
+                          <i className="fa fa-tags" /> Comments (14)
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
-              </a>
+                <div className="col-sm-8">
+                  <div className="news_h1li1r">
+                    <p>
+                      {" "}
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                      Integer nec odio.
+                    </p>
+                    <h6>
+                      <a href="blog_detail.html">Continue Reading...</a>
+                    </h6>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -477,4 +518,4 @@ const Products: React.FC = () => {
   );
 };
 
-export default Products;
+export default Blog;
